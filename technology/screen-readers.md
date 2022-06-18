@@ -32,10 +32,10 @@ Alternate text should be descriptive of the image's content and purpose without 
 
 For images, alternative text must be provided using the `alt` attribute.
 
-{% highlight html %}
+```html
 <img src="fursuit-walk-47.jpg" alt="A person dressed as a blue and green cat dabs in the middle of a plaza.">
 <img src="convention.jpg" alt="The front of a large, red brick hotel. A large banner reading 'Fursona Con 2025' hangs above the entrance.">
-{% endhighlight %}
+```
 
 For videos, either closed captions or a transcript of the video will suffice. The transcript, or a link to the transcript, should be displayed in proximity to the video player.
 
@@ -70,15 +70,15 @@ This is achieved using the `lang` attribute, with a two-letter [ISO 639-1 langua
 
 You can define the document's language by applying the attribute to the `html` element. For example, if the document is in English:
 
-{% highlight html %}
+```html
 <html lang="en">
-{% endhighlight %}
+```
 
 If parts of a page appear in different language, the `lang` attribute can be applied to a wrapping element. This quote, for example, includes a French phrase:
 
-{% highlight html %}
+```html
 <p>Gazing at the wide blue sky is a <span lang="fr">joie de vivre</span>.</p>
-{% endhighlight %}
+```
 
 Foreign language words that have been widely adopted into English, such as *café* and *kindergarten*, do not need to be marked up separately.
 
